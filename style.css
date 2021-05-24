@@ -1,0 +1,401 @@
+body { margin: 0 ; padding: 0; font-family: monospace; background-color:#360836;}
+/* start navbar */ 
+.navbar {
+    width:auto;
+    height:50px;
+    background-color: #360836;
+}
+.navbar .active { color:#fff}
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    line-height:15px;
+    font-size:20px;
+}
+.navbar ul li  { display: inline-block; padding: 5px; }
+.navbar ul li a { text-decoration: none; color: #00ff40; }
+.navbar ul li a:hover { color:#fff }
+/* end navbar */ 
+/* start web flok */ 
+.webfolk {
+    width:100%;
+    height:600px;
+    background-image: url('cover.png');
+    background-size:cover;
+    text-align:center;
+    padding-top:50px;
+    position:relative;
+}
+.webfolk .folk { margin: 80px 80px ;}
+.webfolk .folk h2 {
+    margin:0; 
+    padding:0px; 
+    font-size:50px;
+    color:#fff; 
+    text-transform:uppercase;
+}
+.webfolk .folk p { 
+    letter-spacing:10px;
+    font-size:25px;
+    color:#fff;
+}
+.webfolk .dream p {  font-size:25px; color:#fff; } 
+/* end web flok */
+/* start image */
+.image { width:100%;}
+.image .imag1  {
+    background-image: url('image 1.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag1 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag1:hover .over {  opacity:1}
+.image .imag2  {
+    background-image: url('image_2.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag2 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag2:hover .over { opacity:1 }
+.image .imag3  {
+    background-image: url('image_3.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag3 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag3:hover .over {  opacity:1 }
+.image .imag4  {
+    background-image: url('image_4.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag4 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag4:hover .over {  opacity:1 }
+.image .imag5  {
+    background-image: url('image_5.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag5 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag5:hover .over {  opacity:1 }
+.image .imag6  {
+    background-image: url('image_6.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag6 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag6:hover .over { opacity:1 }
+.image .imag7  {
+    background-image: url('image_7.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag7 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag7:hover .over { opacity:1 }
+.image .imag8  {
+    background-image: url('image_8.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag8 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag8:hover .over {  opacity:1 }
+.image .imag9  {
+    background-image: url('image_9.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag9 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag9:hover .over { opacity:1 }
+.image .imag10  {
+    background-image: url('image_10.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag10 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag10:hover .over { opacity:1 }
+.image .imag11 {
+    background-image: url('image_11.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag11 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag11:hover .over { opacity:1 }
+.image .imag12  {
+    background-image: url('image_12.jpg');
+    width:25%;
+    height:252px;
+    float:left;
+}
+.image .imag12 .over {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity:0
+}
+.image .imag12:hover .over { opacity:1 }
+.clear { clear:both}
+/* end image */
+/*Start Meet the folk */
+.meet {
+    width:100%;
+    height:auto;
+    position:relative;
+    text-align:center;
+}
+.meet .head {
+    position:absolute;
+    top:0;
+    height:50px;
+    background:#ff0048;
+    width:100%;
+    text-align:center;
+    font-size:15px;
+    color:#fff;
+    line-height: 45px;
+   
+}
+.meet h2 {
+    margin:0;
+    padding:8%;
+    color:#00ff40;
+    font-size:40px;
+}
+.meet .meetfloks { display:inline-block; padding-right:15px;}
+.meet .meetfloks h3 {
+    color:#00ff40;
+    font-size:30px;
+    letter-spacing:5px;
+    margin:0;
+}
+.meet .meetfloks p {
+    color:#fff;
+    font-size:20px;
+    letter-spacing:5px;
+}
+.meet button {
+    width:150px;
+    background-color:black;
+    border:0;
+    color:#fff;
+    padding:10px;
+    cursor:pointer;
+    font-size:20px;
+    margin-bottom:10px;
+}
+/*end Meet the folk */
+/* start End text */ 
+.end {
+    width:100%;
+    height:auto;
+    background:url("Cover_2.jpg");
+    text-align:center;
+    padding-top:7%;
+}
+.end .content {
+    width:400px;
+    display:inline-block;
+    color:#fff;
+    margin-top:5%;
+    font-size:20px;
+    padding-right:50px;
+}
+.end .content h2 {margin:0; padding:0;}
+.end button {
+    margin-top: 8%;
+    background:white;
+    border:0;
+    padding:15px;
+    color:black;
+    cursor:pointer;
+    width:200px;
+    height:50px;
+    text-align:center;
+}
+.end .bol { text-align:center; margin-top:5%; }
+.end .bol span {
+    width:10px;
+    height:10px;
+    display:inline-block;
+    background:#fff;
+    border-radius:50%;
+    padding:2px;
+    margin-bottom:5px;
+}
+.end .bol span:hover { background:#00ff40; }
+/*End end text */
+/* start footer */
+.footer {
+    width:100%;
+    height:80px;
+    text-align:center;
+    background:#f5f5f5;
+    line-height:80px;
+    font-size:25px;
+    float:left;
+}
+.footer  p { padding-bottom: 10px; padding-right:5px; }
+/* end footer */
+/************************************* start contact Page ********************************/ 
+/* Start contact */
+.contact { 
+    width:100%;
+    height: 600px;
+    background: url("coverPage2.png");
+    background-size: cover;
+    text-align: center;
+    padding-top: 8%;
+}
+.contact h2 {
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.contact p { font-size:25px; }
+.contact .form {
+    width:450px;
+    height: 400px;
+    margin:auto;
+}
+.contact .form h2 { color: #df1a5a; }
+.contact .form input[type=text], textarea {
+    display:block;
+    width:440px;
+    margin-bottom: 10px;
+    height: 40px;
+    border:0;
+    background-color: #0a0a0a;
+    padding-left: 10px;
+    color:#fff;
+}
+.contact .form textarea {height:200px; color:#fff}
+.contact .form input[type=submit] {
+    float: right;
+    border: 0;
+    background-color:#fff;
+    cursor:pointer;
+    padding: 10px;
+}
+/* end contact */
+/* start contract footer */
+.contactfooter {
+    width:100%;
+    height:300px;
+    background: #f5f5f5;
+    text-align: center;
+    padding-top: 2%;
+}
+.contactfooter h2{
+    margin:0;
+    color:#df1a5a;
+    font-size:35px;
+}
+.contactfooter p {  font-size: 18px; }
+/* end cpntract footer */
+/************************************* end contact Page ********************************/ 
+/************************************* start  Page3 style ********************************/ 
+.contact .cover {
+    width:900px;
+    height:400px;
+    background:#fff;
+    margin:auto; 
+    padding-top:5%;
+}
+.contact .cover .coverleft { 
+    width:45%;
+    float:left;
+    margin-left:5%;
+    height:252px;
+
+}
+.contact .cover .coverleft img { width:100%; }
+.contact .cover .coverright {
+    width:45%;
+    float:right; 
+    margin-right:5%;
+    height:252px;
+    padding-top:7%;
+}
+.contact .cover .coverright button {
+    width:150px;
+    background-color:black;
+    border:0;
+    color:#fff;
+    padding:10px;
+    cursor:pointer;
+    font-size:20px;
+    margin-bottom:10px;
+}
+/************************************* end Page3 style ********************************/ 
+
+
+
+
+
+
